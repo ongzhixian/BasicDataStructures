@@ -11,6 +11,8 @@ dotnet new sln -n BasicDataStructures
 dotnet new console -n BasicDataStructures.ConsoleApp
 dotnet sln .\BasicDataStructures.sln add .\BasicDataStructures.ConsoleApp\
 
+dotnet add .\BasicDataStructures.ConsoleApp\ package BenchmarkDotNet
+
 ```
 
 ## Other packages that we may want to include to expand on configuration options:
